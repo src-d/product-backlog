@@ -2,6 +2,17 @@
 
 This repository hosts the [Product backlog](https://github.com/src-d/product-tbacklog/issues/).
 
+The Product Backlog is fully managed by the Product team,
+and fed by the proposals accepted on the [feature idea](https://github.com/src-d/product-idea) repository.
+
+## Contribute
+
+We have made our backlog public for transparency's sake, but we do not expect any contributions from the community to be done on this repository. If you think this is wrong and would like to participate, you can get in touch with us via email to devrel@sourced.tech.
+
+New issues can only be created by members of the Product organization, including VP of Product and Product Owner.
+
+That said, members of the Engineering organization are welcome and expected to give input, comment, and update on the issues they're involved with.
+
 ## Methodology
 
 To learn about our methodology please read carefully this following documents at guide:
@@ -17,13 +28,6 @@ The labels are used in different ways, we have 3 main categories:
 - __Priority__: these labels are used by the Product Team to prioritize the issues.
 - __State__: a granular way to classify the status of an issue. Used on issues that are assigned to an ongoing sprint.
 
-The Product Backlog is fully managed by the Product team,
-and fed by the proposals accepted on the [feature idea](https://github.com/src-d/product-idea) repository.
-
-New issues can only be created by members of the Product organization, including VP of Product and Product Owner.
-
-That said, members of the Engineering organization are welcome and expected to give input, comment, and update on the issues they're involved with.
-
 ### Label Description
 
 | label          | team  | category | meaning
@@ -34,9 +38,6 @@ That said, members of the Engineering organization are welcome and expected to g
 | medium         | PR    | priority | Medium-priority task.
 | low            | PR    | priority | Low-priority task.
 |                |       |          |
-| draft          | *     | state    | Defines an EPIC with a design document pending to be reviewed.
-| pending-doc    | *     | state    | Defines an EPIC pending of be completed with a design document.
-|                |       |          |
 | data-retrieval | DR    | team     | Data Retrieval.
 | data-science   | ML    | team     | Machine Learning.
 | devrel         | DRL   | team     | Developer Relations.
@@ -45,13 +46,9 @@ That said, members of the Engineering organization are welcome and expected to g
 | applications   | AP    | team     | Applications.
 | product        | PR    | team     | Product & Data Intelligence.
 |                |       |          |
-| gemini         | *     | project  | Related to [src-d/gemini](https://github.com/src-d/gemini) or [src-d](https://github.com/src-d/apollo)
-| babelfish      | *     | project  | Related to [bblfsh](https://github.com/bblfsh).
-| engine         | *     | project  | Related to [src-d/engine](https://github.com/src-d/engine).
+| engine         | *     | product  | Related to [src-d/engine](https://github.com/src-d/engine).
+| lookout        | *     | product  | Related to [src-d/lookout](https://github.com/src-d/lookout).
 |                |       |          |
-| apply-model    | ML    | feature  | The model is designed, some routine work is needed to use it one a new dataset.
-| coding         | ML    | feature  | Engineering task which involves writing some real code and not playing in notebooks.
-| source{d}-api  | ML    | feature  | Exposing the training pipeline, it's artifacts and tools to the public.
 
 Team abbreviations:
 
@@ -67,14 +64,11 @@ Team abbreviations:
 
 - I want to turn my issue into a TODO list: https://help.github.com/articles/about-task-lists/
 
-# Contribute
 
-We have made our backlog public for transparency's sake, but we do not expect any contributions from the community to be done on this repository. If you think this is wrong and would like to participate, you can get in touch with us via email to devrel@sourced.tech.
+## Code of Conduct
 
- # Code of Conduct
+All activities under source{d} projects are governed by the [source{d} code of conduct](.github/CODE_OF_CONDUCT.md).
 
- All activities under source{d} projects are governed by the [source{d} code of conduct](.github/CODE_OF_CONDUCT.md).
+## License
 
- # License
-
- This work is licensed under a Creative Commons — Attribution-ShareAlike 4.0 International License. See [LICENSE](./LICENSE.md).
+This work is licensed under a Creative Commons — Attribution-ShareAlike 4.0 International License. See [LICENSE](./LICENSE.md).
